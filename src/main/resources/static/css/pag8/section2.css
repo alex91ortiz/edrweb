@@ -1,0 +1,96 @@
+.content-2-transition-1 {
+	height: 8%;
+	position: absolute;
+	left: calc(70% - 100%);
+	width: calc(100% - 70%);
+	top: calc(100% - 20%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+.content-2-transition-1-end {
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-2-transition-2 {
+	height: 100vh;
+	width: calc(100% - 50%);
+	position: absolute;
+	left: calc(100% - 45%);
+	top: calc(90% - 100%);
+	transition: transform 0.5s linear;
+}
+
+.content-2-transition-3 {
+	height: 100vh;
+	position: absolute;
+	left: calc(23% - 100%);
+	top: calc(100% - 100%);
+	width: calc(100% - 24%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+.content-2-transition-3-end {
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-2-transition-4 {
+	height: 450px;
+	position: absolute;
+	left: calc(100% - 45%);
+	width: calc(100% - 1%);
+	top: calc(100% - 50%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-2-transition-4-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+.content-2-transition-5 {
+	width: 45%;
+	height: 600px;
+	position: absolute;
+	left: calc(74% - 100%);
+	top: calc(100% - 65%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-2-transition-5-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}

@@ -1,0 +1,195 @@
+.content-3-transition-1 {
+	height: 75vh;
+	position: absolute;
+	left: calc(100% - 98%);
+	width: calc(100% - 71%);
+	top: calc(100% - 99%);
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-1-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-2 {
+	height: 55vh;
+	position: absolute;
+	left: calc(100% - 94%);
+	top: calc(100% - 79%);
+	width: calc(100% - 80%);
+	-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-2-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-3 {
+	height: 30vh;
+	position: absolute;
+	left: calc(100% - 86%);
+	top: calc(100% - 54%);
+	width: calc(100% - 80%);
+	-webkit-transition: opacity 3s ease-in-out;
+	-moz-transition: opacity 3s ease-in-out;
+	transition: opacity 3s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-3-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-4 {
+	height: 75vh;
+	position: absolute;
+	left: calc(100% - 73%);
+	top: calc(100% - 99%);
+	width: calc(100% - 80%);
+	-webkit-transition: opacity 4s ease-in-out;
+	-moz-transition: opacity 4s ease-in-out;
+	transition: opacity 4s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-4-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-5 {
+	height: 75vh;
+	position: absolute;
+	left: calc(100% - 59%);
+	top: calc(100% - 99%);
+	width: calc(100% - 80%);
+	-webkit-transition: opacity 5s ease-in-out;
+	-moz-transition: opacity 5s ease-in-out;
+	transition: opacity 5s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-5-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-6 {
+	height: 30vh;
+	position: absolute;
+	left: calc(100% - 49%);
+	top: calc(100% - 54%);
+	width: calc(100% - 85%);
+	-webkit-transition: opacity 6s ease-in-out;
+	-moz-transition: opacity 6s ease-in-out;
+	transition: opacity 6s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-6-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-7 {
+	height: 70vh;
+	position: absolute;
+	left: calc(100% - 48%);
+	top: calc(100% - 94%);
+	width: calc(100% - 66%);
+	-webkit-transition: opacity 7s ease-in-out;
+	-moz-transition: opacity 7s ease-in-out;
+	transition: opacity 7s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-7-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-8 {
+	height: 50vh;
+	position: absolute;
+	left: calc(100% - 30%);
+	top: calc(100% - 74%);
+	width: calc(100% - 71%);
+	-webkit-transition: opacity 8s ease-in-out;
+	-moz-transition: opacity 8s ease-in-out;
+	transition: opacity 8s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-8-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-9 {
+	height: 50vh;
+	position: absolute;
+	left: calc(100% - 19%);
+	top: calc(100% - 45%);
+	width: calc(100% - 85%);
+	-webkit-transition: opacity 9s ease-in-out;
+	-moz-transition: opacity 9s ease-in-out;
+	transition: opacity 9s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-9-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-10 {
+	height: 370px;
+	position: absolute;
+	left: 72%;
+	top: 52%;
+	-webkit-transition: opacity 10s ease-in-out;
+	-moz-transition: opacity 10s ease-in-out;
+	transition: opacity 10s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-10-end {
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.content-3-transition-11 {
+	height: 260px;
+	position: absolute;
+	left: 76%;
+	top: 60%;
+	-webkit-transition: opacity 11s ease-in-out;
+	-moz-transition: opacity 11s ease-in-out;
+	transition: opacity 11s ease-in-out;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.content-3-transition-11-end {
+	opacity: 0.9;
+	visibility: visible;
+}

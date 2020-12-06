@@ -1,0 +1,89 @@
+.content-2-transition-1 {
+	height: 200px;
+	position: absolute;
+	left: calc(100% - 55%);
+	top: calc(100% - 35%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+.content-2-transition-1-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+.content-2-transition-2 {
+	height: 750px;
+	position: absolute;
+	left:calc(100% - 72%);
+	top: calc(65% - 100%);
+	transition: transform 0.5s linear;
+}
+.content-2-transition-3 {
+	height: 100vh;
+	position: absolute;
+	left: calc(100% - 100%);
+	width: calc(100% - 0%);
+	top: calc(65% - 100%);
+	transition: transform 0.5s linear;
+	
+}
+
+.content-2-transition-3-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+
+.content-2-transition-4 {
+	height: 70px;
+	position: absolute;
+	left: calc(100% - 31%);
+	top: calc(100% - 12%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-2-transition-4-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
+
+.content-2-transition-5 {
+	width:45%;
+	height: 600px;
+	position: absolute;
+	left: calc(74% - 100%);
+	top: calc(100% - 65%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-2-transition-5-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}

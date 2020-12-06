@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>P&aacute;gina 2</title>
+	<link th:href="@{/css/menu.css}" href="/css/menu.css" type="text/css" rel="stylesheet" />
+	<link th:href="@{/css/reset.css}" href="/css/reset.css" type="text/css" rel="stylesheet" />
+	<link th:href="@{/css/pag2/parallax.css}" href="/css/pag2/parallax.css" type="text/css" rel="stylesheet" />
+	<link th:href="@{/css/pag2/section.css}" href="/css/pag2/section.css" type="text/css" rel="stylesheet" />
+	<link th:href="@{/css/pag2/section2.css}" href="/css/pag2/section2.css" type="text/css" rel="stylesheet" />
+	<link th:href="@{/css/pag2/section3.css}" href="/css/pag2/section3.css" type="text/css" rel="stylesheet" />
+
+	<script type="text/javascript" th:src="@{/js/modernizr.js}"></script>
+</head>
+
+<body data-hijacking="off" data-animation="parallax">
+	<header th:insert="fragments/navbar.html :: header"> </header>
+	<div class="app">
+		<div th:insert="fragments/sidesbar.html :: sidesp0"></div>
+		<main>
+			<section section-id="1" class="cd-section visible ">
+				<div>
+					<img src="/img/pag2/pag-1-title-1.png" id="title1" class="content-transition-1" /> <img
+						src="/img/pag2/pag-1-title-2.png" id="title2" class="content-transition-2" />
+
+					<h2>&nbsp;</h2>
+				</div>
+			</section>
+			<section section-id="2" class="cd-section">
+				<div>
+					<img src="/img/pag2/pag-2-title-1.jpg" id="title5" class="content-2-transition-1" />
+
+					<!-- 
+			 -->
+					<h2>&nbsp;</h2>
+				</div>
+			</section>
+			<section section-id="3" class="cd-section">
+				<div>
+
+					<img src="/img/pag2/pag-2-title-3.png" id="title6" class="content-2-transition-2" /> <img
+						src="/img/pag2/pag-2-title-4.png" id="title7" class="content-2-transition-3" /> <img
+						src="/img/pag2/pag-2-title-5.png" id="title8" class="content-2-transition-4" /> <img
+						src="/img/pag2/pag-2-title-6.png" id="title12" class="content-2-transition-5" />
+
+					<!-- 
+			 -->
+					<h2>&nbsp;</h2>
+				</div>
+			</section>
+
+			<section section-id="4" class="cd-section">
+				<div>
+					<img src="/img/pag2/timeline-1.png" id="timeline1" class="content-3-transition-1" /> <img
+						src="/img/pag2/timeline-2.png" id="timeline2" class="content-3-transition-2" /> <img
+						src="/img/pag2/timeline-3.png" id="timeline3" class="content-3-transition-3" /> <img
+						src="/img/pag2/timeline-4.png" id="timeline4" class="content-3-transition-4" /> <img
+						src="/img/pag2/timeline-5.png" id="timeline5" class="content-3-transition-5" /> <img
+						src="/img/pag2/timeline-6.png" id="timeline6" class="content-3-transition-6" /> <img
+						src="/img/pag2/timeline-7.png" id="timeline7" class="content-3-transition-7" /> <img
+						src="/img/pag2/timeline-8.png" id="timeline8" class="content-3-transition-8" />
+
+
+					<h2>&nbsp;</h2>
+				</div>
+			</section>
+
+			<div class="cd-horizontal-nav">
+				<img src="/img/pag2/02.jpg" id="timeline11" class="pagination" />
+				<a href="/page3" class="pg-next">Next</a>
+				<a href="/page1" class="pg-prev">Prev</a>
+				<h2>&nbsp;</h2>
+			</div>
+		</main>
+	</div>
+	<!-- 
+	<section class="cd-section">
+		<div>
+			<h2>Section 4</h2>
+		</div>
+	</section>
+
+	<section class="cd-section">
+		<div>
+			<h2>Section 5</h2>
+		</div>
+	</section>
+	 -->
+
+	<div>
+		<ul class="cd-vertical-nav">
+			<li><a href="#0" class="cd-prev inactive">Next</a></li>
+			<li><a href="#0" class="cd-next">Prev</a></li>
+		</ul>
+	</div>
+	<!-- .cd-vertical-nav -->
+	<script type="text/javascript" th:src="@{/js/jquery-3.5.1.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/velocity.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/velocity.ui.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/pag2/parallax.js}"></script>
+	<script type="text/javascript" th:src="@{/js/pag2/onesection.js}"></script>
+	<script type="text/javascript" th:src="@{/js/menu.js}"></script>
+</body>
+
+</html>
