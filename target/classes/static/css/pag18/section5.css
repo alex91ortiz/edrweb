@@ -1,0 +1,43 @@
+.content-5-transition-1 {
+	height: 14%;
+	position: absolute;
+	left: calc(92% - 100%);
+	width: calc(100% - 65%);
+	top: calc(100% - 100%);
+	transition: transform 0.5s linear;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-5-transition-1-end {
+	-webkit-transform: translateX(-30%);
+	-moz-transform: translateX(-30%);
+	-ms-transform: translateX(-30%);
+	-o-transform: translateX(-30%);
+	transform: translateX(-30%);
+}
+
+.content-5-transition-2 {
+	height: 100vh;
+	position: absolute;
+	left: calc(0% - 100%);
+	top: calc(100% - 100%);
+	width: calc(100% - 0%);
+	transition: transform 0.7s linear;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.content-5-transition-2-end {
+	-webkit-transform: translateX(-10%);
+	-moz-transform: translateX(-10%);
+	-ms-transform: translateX(-10%);
+	-o-transform: translateX(-10%);
+	transform: translateX(-10%);
+}
